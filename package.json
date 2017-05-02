@@ -1,0 +1,12 @@
+{
+  "name": "intro-to-webdev-app",
+  "version": "0.0.0",
+  "description": "Intro to Web Dev app for Frontend Masters Final Project",
+  "main": "app.js",
+  "author": "M Peters <matthew.george.peters@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.6.0",
+    "body-parser": "~1.4.3"
+  }
+}
