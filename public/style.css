@@ -42,7 +42,22 @@ body {
 }
 
 .tweet-button {
-	color: green;
+	font-size: 17px;
+	text-align: center;
+	background-color: lightblue;
+	border: none;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px 20px 5px 20px;
 	position: left;
 	float: right;
+	cursor: pointer;
 }
+
+.new-tweet-input:hover {
+	border: 2px solid blue;
+}
+.tweet-button:active {
+	background-color: darkblue;
+}
+
