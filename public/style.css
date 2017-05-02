@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	font-family: 'Yrsa', sans-sarif;
+	color: #333;
+	margin: 0;
+}
+
+.title-card {
+	width: 100%;
+	color: #fafafa;
+	background-color: darkgrey;
+	margin-top: 0;
+	padding: 15px 10%;
+}
+
+.title-head {
+	font-size: 50px;
+}
+
+.title-sub {
+	font-size: 17px
+}
+
+.tweet-container {
+  margin: 20px auto;
+  width: 80%;
+  padding: 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.new-tweet-input {
+	width: 100%;
+	height: 30px;
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+}
+
+.tweet-button {
+	color: green;
+	position: left;
+	float: right;
+}

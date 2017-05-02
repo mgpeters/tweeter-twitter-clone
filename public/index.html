@@ -2,26 +2,31 @@
 <html>
 <head>
 	<title>Tweeter - Twitter Clone (sorta...)</title>
-		<!-->Importing google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Yrsa" rel="stylesheet">	
 		<!--Importing of CSS Stylesheet --> 
 	<link rel="stylesheet" type="text/css" href="style.css">
+		<!--Importing google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Yrsa" rel="stylesheet">	
 </head>
 <body>
-	<h1 class="title-card">Tweeter</h1>
-
-	<div class="tweet-container">
-		<
+		<!-- Header of the page-->
+	<div class= "title-card">
+		<h1 class="title-head">Tweeter</h1>
+		<h5 class="title-sub">The Twitter Clone (Kinda...)</h5>
+	</div>
+			<!--Input box for our tweets-->
+	<div class="tweet-container" id="">
+		<input placeholder="What's on your mind...?" type="text" class="new-tweet-input" id="">
+		<button class="tweet-button" id="tweet">Tweet</button>
 	</div>
 
-	<div class="new-tweet">
+	<div class="tweets" id="tweets-target">
 		
 	</div>
 
 
 </body>
-<!--Importing of JQuery Library via pull -->
+	<!--Importing of JQuery Library via pull -->
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<!--Importing of Javascript In-house -->
+	<!--Importing of Javascript In-house -->
 <script src="tweeter.js" type="text/javascript"></script>
 </html>
