@@ -1,7 +1,7 @@
 // AJAX request for GETTING data
 $.ajax({
-	type: 'GET',
-	url: '/ajax',
+	type: "GET",
+	url: "/ajax",
 	success: function (data){
 		for(var x = 0; x < data.tweets.length; x++){
 			appendNewTweet(data.tweets[x]);
@@ -21,10 +21,10 @@ function appendNewTweet(tweet){
 //
 $('#tweet').click(function(){
 	$.ajax({
-		type: 'POST',
-		url: '/ajax',
+		type: "POST",
+		url: "/ajax",
 		contentType: 'application/json',
-		data: JSON.stringify({tweet: $('new-tweet').val()}),
+		data: JSON.stringify({tweet: $('#new-tweet').val()}),
 		success: function(data){
 			appendNewTweet(data);
 			$('#new-tweet').val('');
